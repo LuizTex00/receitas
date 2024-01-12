@@ -1,0 +1,38 @@
+#areaReceitas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receita{
+    background-color: rgb(226, 235, 178);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.receita h2 {
+    color: black;
+}
+
+.receita img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.receita ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.receita ul li {
+    margin-bottom: 5px;
+    list-style: disc;
+}
+
+.receita ul li:last-child{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
